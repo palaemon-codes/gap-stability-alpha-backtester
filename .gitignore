@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (reproducible from notebook)
+*.png
+*.csv
+
+# Data (too large for Git – see README for sourcing instructions)
+stocks_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Diagnostic scripts (development only)
+_diag*.py
